@@ -7,10 +7,10 @@ import (
 
 	"fmt"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/alerting"
+	"github.com/wviveiro/grafana/pkg/bus"
+	"github.com/wviveiro/grafana/pkg/log"
+	"github.com/wviveiro/grafana/pkg/models"
+	"github.com/wviveiro/grafana/pkg/services/alerting"
 )
 
 func init() {

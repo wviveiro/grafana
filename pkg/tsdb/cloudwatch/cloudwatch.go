@@ -9,18 +9,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/tsdb"
+	"github.com/wviveiro/grafana/pkg/log"
+	"github.com/wviveiro/grafana/pkg/models"
+	"github.com/wviveiro/grafana/pkg/setting"
+	"github.com/wviveiro/grafana/pkg/tsdb"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
-	"github.com/grafana/grafana/pkg/components/null"
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/metrics"
+	"github.com/wviveiro/grafana/pkg/components/null"
+	"github.com/wviveiro/grafana/pkg/components/simplejson"
+	"github.com/wviveiro/grafana/pkg/metrics"
 )
 
 type CloudWatchExecutor struct {

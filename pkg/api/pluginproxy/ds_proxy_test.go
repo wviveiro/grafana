@@ -7,12 +7,12 @@ import (
 
 	macaron "gopkg.in/macaron.v1"
 
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/plugins"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/wviveiro/grafana/pkg/components/simplejson"
+	"github.com/wviveiro/grafana/pkg/middleware"
+	m "github.com/wviveiro/grafana/pkg/models"
+	"github.com/wviveiro/grafana/pkg/plugins"
+	"github.com/wviveiro/grafana/pkg/setting"
+	"github.com/wviveiro/grafana/pkg/util"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

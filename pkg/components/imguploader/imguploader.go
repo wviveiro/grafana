@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/wviveiro/grafana/pkg/setting"
 )
 
 type ImageUploader interface {

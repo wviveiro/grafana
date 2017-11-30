@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/metrics"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/search"
+	"github.com/wviveiro/grafana/pkg/bus"
+	"github.com/wviveiro/grafana/pkg/metrics"
+	m "github.com/wviveiro/grafana/pkg/models"
+	"github.com/wviveiro/grafana/pkg/services/search"
 )
 
 func init() {

@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/grafana/grafana/pkg/bus"
-	_ "github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/wviveiro/grafana/pkg/bus"
+	_ "github.com/wviveiro/grafana/pkg/log"
+	"github.com/wviveiro/grafana/pkg/middleware"
+	m "github.com/wviveiro/grafana/pkg/models"
 )
 
 func ValidateOrgPlaylist(c *middleware.Context) {

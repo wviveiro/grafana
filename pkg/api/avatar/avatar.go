@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/wviveiro/grafana/pkg/log"
+	"github.com/wviveiro/grafana/pkg/setting"
 	"gopkg.in/macaron.v1"
 )
 

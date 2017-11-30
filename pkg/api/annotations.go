@@ -4,11 +4,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/middleware"
-	"github.com/grafana/grafana/pkg/services/annotations"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/wviveiro/grafana/pkg/api/dtos"
+	"github.com/wviveiro/grafana/pkg/components/simplejson"
+	"github.com/wviveiro/grafana/pkg/middleware"
+	"github.com/wviveiro/grafana/pkg/services/annotations"
+	"github.com/wviveiro/grafana/pkg/util"
 )
 
 func GetAnnotations(c *middleware.Context) Response {

@@ -1,8 +1,8 @@
 package provisioning
 
 import (
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/services/provisioning/datasources"
+	"github.com/wviveiro/grafana/pkg/log"
+	"github.com/wviveiro/grafana/pkg/services/provisioning/datasources"
 )
 
 var (

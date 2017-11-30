@@ -5,8 +5,8 @@ import (
 
 	"fmt"
 
-	"github.com/grafana/grafana/pkg/models"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/wviveiro/grafana/pkg/models"
+	m "github.com/wviveiro/grafana/pkg/models"
 	. "github.com/smartystreets/goconvey/convey"
 )
 
